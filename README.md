@@ -1,24 +1,27 @@
 ---- CHALLENGE ----
 
-AUTOMAÇÃO DE TESTE BASE 
+BASE TEST AUTOMATION
 
-Requisitos de software e hardware necessários para executar este projeto de automação
+Software and hardware requirements needed to run this automation project
 
 - Java 1.8 SDK
 - Maven
-  
---- EXECUÇÃO ---
 
-. No projeto retirar as tags do RunTest no package runner
-. para executar somente 1 teste especifico adicionar tag do bdd com @ no package runner
 
-. Botão direito e Run
+create named folder (extent-reports) within target for report generation
+  
+--- EXECUTION ---
 
-Outra forma de execução
+. In the project remove the RunTest tags in the package runner
+. to run only 1 specific test add bdd tag with @ in the package runner
+
+. Right click and Run
+
+Another form of execution
 
 - mvn clean
 - mvn install
 - mvn verify
 
---- Autor ---
+--- Author ---
 Thiago Souza
