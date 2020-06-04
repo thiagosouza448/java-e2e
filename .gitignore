@@ -1,2 +1,1 @@
-.target\extent-reports
-target\extent-reports
+target/extent-reports/*.html
