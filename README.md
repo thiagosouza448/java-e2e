@@ -26,6 +26,14 @@ Another form of execution
 - mvn verify
 ```
 
+
+## debugging INTELLIJ 
+
+```bash
+-PARAMETERS/  field command line : clean install -Dmaven.test.failure.ignore=true -Dselenide.browser=chrome
+- RUNNER / field VM Options : -DforkMode=never
+```
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
